@@ -42,7 +42,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <FriendProps>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}></RouterProvider>
     </FriendProps>
 
   </StrictMode>,

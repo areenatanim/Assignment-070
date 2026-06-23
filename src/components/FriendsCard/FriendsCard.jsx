@@ -19,7 +19,7 @@ const FriendsCard = () => {
 
     });
 
-    const { handelCall } = useContext(FriendContext);
+    const { handelCall, handelMassage, handelVideo } = useContext(FriendContext);
     return (
         <div>
 
@@ -113,18 +113,21 @@ const FriendsCard = () => {
                             <p className="text-xs text-gray-400">Connect every <span className="font-bold text-[1rem] text-neutral">{rightFriend.days_since_contact} days</span></p>
                         </div>
                         <div className="rounded-xl border-gray-200 my-1.5 bg-white shadow-xl p-8 flex justify-around items-center">
-                            {/* <Link></Link> */}
                             <button
-                                onClick={handelCall(rightFriend)}
+                                onClick={() => handelCall(rightFriend)}
                                 className="btn flex flex-col p-7">
-                                <div className="">  <FiPhoneCall />
-                                </div>
+                                <FiPhoneCall />
+
                                 Call</button>
-                            <button className="btn flex flex-col p-7">
-                                <div><MdOutlineTextsms /></div>
+                            <button
+                                onClick={() => handelMassage(rightFriend)}
+                                className="btn flex flex-col p-7">
+                                <MdOutlineTextsms />
                                 massage</button>
-                            <button className="btn p-7  flex flex-col">
-                                <div><PiVideoCameraBold /></div>
+                            <button
+                                onClick={() => handelVideo(rightFriend)}
+                                className="btn p-7  flex flex-col">
+                                <PiVideoCameraBold />
 
                                 <p className="font-bold">Video</p>
                             </button>
