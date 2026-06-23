@@ -42,7 +42,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className='mx-8'>
-                    <img src={logoImg} alt="" srcset="" />
+                    <img src={logoImg} alt="logo icon" />
                 </div>
             </div>
             <div className="navbar-end hidden lg:flex mx-8 ">

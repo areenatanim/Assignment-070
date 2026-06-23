@@ -7,6 +7,7 @@ import ErrorPage from './Pages/ErrorPage/ErrorPage'
 import HomePage from './Pages/HomePage/HomePage'
 import Timeline from './Pages/Timeline/Timeline'
 import Stats from './Pages/Stats/Stats'
+import FriendsCard from './components/FriendsCard/FriendsCard'
 
 
 const router = createBrowserRouter([
@@ -27,8 +28,8 @@ const router = createBrowserRouter([
         element: <Stats></Stats>
       },
       {
-        // path: "/bookDetails/:bookId",
-        // Component: BookDetails,
+        path: "/friendsCard/:friendsId",
+        Component: FriendsCard,
 
       }
 
