@@ -4,10 +4,8 @@
 
 **Navbar:**
 - Design the Navbar exactly like the Figma design
-- Put your **logo on the left side**
-- Put your **navigation links on the right side** — links are: **Home**, **Timeline**, **Stats**
-- Each link should have an **icon** next to the text
-- The **active page link** should look different (highlighted), just like the Figma design
+-  **logo on the left side**
+-  **navigation links on the right side** — links are: **Home**, **Timeline**, **Stats**
 
 ---
 
@@ -15,18 +13,17 @@
 
 **Banner Section (Top of the Home page):**
 - Show a centered **title** and **subtitle**
-- Add a **button with an icon** (e.g., "Add a Friend")
-- Show **4 summary cards below the banner**, following the Figma design
+- Add a **button with an icon** 
+- Show **4 summary cards below the banner**, 
 
 ---
 ### 1. 🔝 Navbar
 
 **Navbar:**
 - Design the Navbar exactly like the Figma design
-- Put your **logo on the left side**
-- Put your **navigation links on the right side** — links are: **Home**, **Timeline**, **Stats**
-- Each link should have an **icon** next to the text
-- The **active page link** should look different (highlighted), just like the Figma design
+-  **logo on the left side**
+-  **navigation links on the right side** — links are: **Home**, **Timeline**, **Stats**
+- The **active page link** 
 
 ---
 
@@ -34,7 +31,7 @@
 
 **Banner Section (Top of the Home page):**
 - Show a centered **title** and **subtitle**
-- Add a **button with an icon** (e.g., "Add a Friend")
+- Added a **button with an icon** 
 - Show **4 summary cards below the banner**, following the Figma design
 
 ---
