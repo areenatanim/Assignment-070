@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Chen",
+        "picture": "https://i.ibb.co.com/yB0S3BnD/Ellipse-1-2.png",
+        "email": "sarah.chen@gmail.com",
+        "days_since_contact": 18,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Roommates for three years at UC Davis. She's the one who got me into rock climbing, and we still try to hit a new gym together whenever she's in town.",
+        "goal": 14,
+        "next_due_date": "2026-06-16"
+    },
+    {
+        "id": 2,
+        "name": "Marcus Johnson",
+        "picture": "https://i.ibb.co.com/0p7MkmC3/Ellipse-1-1.png",
+        "email": "marcus.johnson88@outlook.com",
+        "days_since_contact": 6,
+        "status": "almost due",
+        "tags": [
+            "childhood friend",
+            "neighbor"
+        ],
+        "bio": "Grew up two houses down from me. We rode the same school bus for ten years and still text every time our old street comes up in conversation.",
+        "goal": 7,
+        "next_due_date": "2026-06-21"
+    },
+    {
+        "id": 3,
+        "name": "Priya Patel",
+        "picture": "https://i.ibb.co.com/4ZQVTD4z/Ellipse-1-4.png",
+        "email": "priya.patel@yahoo.com",
+        "days_since_contact": 25,
+        "status": "overdue",
+        "tags": [
+            "work",
+            "mentor"
+        ],
+        "bio": "My first manager at Adobe and the reason I learned to actually negotiate my salary. We grab coffee whenever she's not buried in product launches.",
+        "goal": 21,
+        "next_due_date": "2026-06-15"
+    },
+    {
+        "id": 4,
+        "name": "David Kim",
+        "picture": "https://i.ibb.co.com/r2kJ0pFQ/Ellipse-1-3.png",
+        "email": "davidkim.fit@gmail.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "gym buddy"
+        ],
+        "bio": "We spot each other on leg day at Equinox three mornings a week. Outside the gym he's basically convinced me to try every new ramen spot downtown.",
+        "goal": 10,
+        "next_due_date": "2026-06-27"
+    },
+    {
+        "id": 5,
+        "name": "Emily Rodriguez",
+        "picture": "https://i.ibb.co.com/r2kJ0pFQ/Ellipse-1-3.png",
+        "email": "emily.rodriguez@protonmail.com",
+        "days_since_contact": 9,
+        "status": "on-track",
+        "tags": [
+            "book club",
+            "close friend"
+        ],
+        "bio": "We've been in the same book club since 2022 and somehow end up arguing about the ending of every single novel. She's the friend I call first with big news.",
+        "goal": 30,
+        "next_due_date": "2026-07-11"
+    },
+    {
+        "id": 6,
+        "name": "James Whitfield",
+        "picture": "https://i.ibb.co.com/4ZQVTD4z/Ellipse-1-4.png",
+        "email": "j.whitfield@icloud.com",
+        "days_since_contact": 13,
+        "status": "almost due",
+        "tags": [
+            "family",
+            "cousin"
+        ],
+        "bio": "My cousin on my dad's side, two years older than me. He taught me to drive stick shift in a parking lot in high school and never lets me forget it.",
+        "goal": 14,
+        "next_due_date": "2026-06-21"
+    },
+    {
+        "id": 7,
+        "name": "Aisha Mohammed",
+        "picture": "https://i.ibb.co.com/1gLGr0n/Ellipse-1-6.png",
+        "email": "aisha.m.travels@gmail.com",
+        "days_since_contact": 45,
+        "status": "overdue",
+        "tags": [
+            "travel buddy",
+            "college"
+        ],
+        "bio": "Backpacked through Vietnam and Thailand together senior year of college. She's currently based in Lisbon and we keep promising each other a reunion trip.",
+        "goal": 30,
+        "next_due_date": "2026-06-05"
+    },
+    {
+        "id": 8,
+        "name": "Tom Nguyen",
+        "picture": "https://i.ibb.co.com/KCzgQPn/Ellipse-1.png",
+        "email": "tom.nguyen@outlook.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "work",
+            "close friend"
+        ],
+        "bio": "Sits two desks over at work and somehow always knows the best lunch spot within walking distance. We carpool on Fridays and debrief the whole week.",
+        "goal": 7,
+        "next_due_date": "2026-06-25"
+    },
+    {
+        "id": 9,
+        "name": "Aisha Mohammed",
+        "picture": "https://i.ibb.co.com/GfkdV0v0/Ellipse-1-7.png",
+        "email": "aisha.m.travels@gmail.com",
+        "days_since_contact": 45,
+        "status": "overdue",
+        "tags": [
+            "travel buddy",
+            "college"
+        ],
+        "bio": "Backpacked through Vietnam and Thailand together senior year of college. She's currently based in Lisbon and we keep promising each other a reunion trip.",
+        "goal": 30,
+        "next_due_date": "2026-06-05"
+    },
+    {
+        "id": 10,
+        "name": "Tom Nguyen",
+        "picture": "https://i.ibb.co.com/GfszLj8y/Ellipse-1-8.png",
+        "email": "tom.nguyen@outlook.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "work",
+            "close friend"
+        ],
+        "bio": "Sits two desks over at work and somehow always knows the best lunch spot within walking distance. We carpool on Fridays and debrief the whole week.",
+        "goal": 7,
+        "next_due_date": "2026-06-25"
+    },
+    {
+        "id": 11,
+        "name": "Tom Nguyen",
+        "picture": "https://i.ibb.co.com/fVmLPHxZ/Ellipse-1-9.png",
+        "email": "tom.nguyen@outlook.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "work",
+            "close friend"
+        ],
+        "bio": "Sits two desks over at work and somehow always knows the best lunch spot within walking distance. We carpool on Fridays and debrief the whole week.",
+        "goal": 7,
+        "next_due_date": "2026-06-25"
+    },
+    {
+        "id": 12,
+        "name": "Tom Nguyen",
+        "picture": "https://i.ibb.co.com/QLHVS6k/Ellipse-1-10.png",
+        "email": "tom.nguyen@outlook.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "work",
+            "close friend"
+        ],
+        "bio": "Sits two desks over at work and somehow always knows the best lunch spot within walking distance. We carpool on Fridays and debrief the whole week.",
+        "goal": 7,
+        "next_due_date": "2026-06-25"
+    }
+]
