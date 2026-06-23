@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       {
         path: "/friendsCard/:friendsId",
         Component: FriendsCard,
-
+        loader: () => fetch("/data.json").then(rest => rest.json()),
       }
 
     ],
