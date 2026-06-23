@@ -5,6 +5,8 @@ import { PiVideoCameraBold } from "react-icons/pi";
 import { TbBellZ } from "react-icons/tb";
 import { HiOutlineArchive } from "react-icons/hi";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { useContext } from "react";
+import { FriendContext } from "../../context/FriendContext";
 
 const FriendsCard = () => {
     const { friendsId } = useParams();
@@ -17,7 +19,7 @@ const FriendsCard = () => {
 
     });
 
-
+    const { handelCall } = useContext(FriendContext);
     return (
         <div>
 
@@ -112,8 +114,11 @@ const FriendsCard = () => {
                         </div>
                         <div className="rounded-xl border-gray-200 my-1.5 bg-white shadow-xl p-8 flex justify-around items-center">
                             {/* <Link></Link> */}
-                            <button className="btn flex flex-col p-7">
-                                <div className="">  <FiPhoneCall /></div>
+                            <button
+                                onClick={handelCall(rightFriend)}
+                                className="btn flex flex-col p-7">
+                                <div className="">  <FiPhoneCall />
+                                </div>
                                 Call</button>
                             <button className="btn flex flex-col p-7">
                                 <div><MdOutlineTextsms /></div>
