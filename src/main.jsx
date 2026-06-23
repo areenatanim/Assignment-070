@@ -5,6 +5,8 @@ import MainLayout from './Layout/MainLayout'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import ErrorPage from './Pages/ErrorPage/ErrorPage'
 import HomePage from './Pages/HomePage/HomePage'
+import Timeline from './Pages/Timeline/Timeline'
+import Stats from './Pages/Stats/Stats'
 
 
 const router = createBrowserRouter([
@@ -16,15 +18,19 @@ const router = createBrowserRouter([
         index: true,
         element: <HomePage></HomePage>
       },
-      // {
-      //     path: "/books",
-      //     element: <BooksPage></BooksPage>,
-      // },
-      // {
-      //     path: "/bookDetails/:bookId",
-      //     Component: BookDetails,
+      {
+        path: "/timeline",
+        element: <Timeline></Timeline>,
+      },
+      {
+        path: "/stats",
+        element: <Stats></Stats>
+      },
+      {
+        // path: "/bookDetails/:bookId",
+        // Component: BookDetails,
 
-      // }
+      }
 
     ],
     errorElement: <ErrorPage></ErrorPage>

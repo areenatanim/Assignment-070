@@ -15,14 +15,14 @@ const NavBar = () => {
                 Home</NavLink></li>
         <li>
             <NavLink
-                to={"/books"}
+                to={"/timeline"}
                 className={({ isActive }) => `mx-2 ${isActive ? "bg-[#244D3F] text-white" : "btn btn-outline border-[#244D3F]"}`}
             >
                 <FaRegClock></FaRegClock>
                 Timeline</NavLink></li>
         <li>
             <NavLink
-                to={"/ReadPage"}
+                to={"/stats"}
                 className={({ isActive }) => `mx-2 ${isActive ? "bg-[#244D3F] text-white" : "btn btn-outline border-[#244D3F]"}`}
             >
                 <TfiStatsUp></TfiStatsUp>
