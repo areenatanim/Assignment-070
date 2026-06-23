@@ -1,20 +1,32 @@
 import { NavLink } from "react-router";
-
+import logoImg from "/logo.png"
+import { IoHomeOutline } from "react-icons/io5";
+import { FaRegClock } from "react-icons/fa";
+import { TfiStatsUp } from "react-icons/tfi";
 
 const NavBar = () => {
     const links = <>
-        <li><NavLink
-            to={"/"}
-            className={({ isActive }) => `mx-2 ${isActive ? "text-green-500 border border-green-500" : "btn"}`}
-        >Home</NavLink></li>
-        <li><NavLink
-            to={"/books"}
-            className={({ isActive }) => `mx-2 ${isActive ? "text-green-500 border border-green-500" : "btn"}`}
-        >Listed Books</NavLink></li>
-        <li><NavLink
-            to={"/ReadPage"}
-            className={({ isActive }) => `mx-2 ${isActive ? "text-green-500 border border-green-500" : "btn"}`}
-        >Pages to Read</NavLink></li>
+        <li>
+            <NavLink
+                to={"/"}
+                className={({ isActive }) => `mx-2 ${isActive ? "bg-[#244D3F] text-white" : "btn btn-outline border-[#244D3F]"}`}
+            >
+                <IoHomeOutline></IoHomeOutline>
+                Home</NavLink></li>
+        <li>
+            <NavLink
+                to={"/books"}
+                className={({ isActive }) => `mx-2 ${isActive ? "bg-[#244D3F] text-white" : "btn btn-outline border-[#244D3F]"}`}
+            >
+                <FaRegClock></FaRegClock>
+                Timeline</NavLink></li>
+        <li>
+            <NavLink
+                to={"/ReadPage"}
+                className={({ isActive }) => `mx-2 ${isActive ? "bg-[#244D3F] text-white" : "btn btn-outline border-[#244D3F]"}`}
+            >
+                <TfiStatsUp></TfiStatsUp>
+                Stats</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
@@ -30,13 +42,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className='mx-8'>
-                    {/* <Image
-                        src="/logo.png"
-                        alt='logo icon'
-                        width="144"
-                        height="31"
-                        className='w-auto h-auto'
-                    ></Image> */}
+                    <img src={logoImg} alt="" srcset="" />
                 </div>
             </div>
             <div className="navbar-end hidden lg:flex mx-8 ">

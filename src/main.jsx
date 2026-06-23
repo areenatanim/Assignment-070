@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import MainLayout from './Layout/MainLayout'
 import { createBrowserRouter, RouterProvider } from 'react-router'
+import ErrorPage from './Pages/ErrorPage/ErrorPage'
+import HomePage from './Pages/HomePage/HomePage'
 
 
 const router = createBrowserRouter([
@@ -10,10 +12,10 @@ const router = createBrowserRouter([
     path: '/',
     Component: MainLayout,
     children: [
-      // {
-      //     index: true,
-      //     element: <HomePage></HomePage>,
-      // },
+      {
+        index: true,
+        element: <HomePage></HomePage>
+      },
       // {
       //     path: "/books",
       //     element: <BooksPage></BooksPage>,
@@ -25,7 +27,7 @@ const router = createBrowserRouter([
       // }
 
     ],
-    // errorElement: <ErrorPage></ErrorPage>
+    errorElement: <ErrorPage></ErrorPage>
   }
 ])
 
